@@ -1,12 +1,12 @@
-package com.solve;
+package com.solve.BEGINNER;
 
 import java.util.Scanner;
 
-public class Problem1004 {
+public class Problem1014 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        System.out.println("PROD = "+(a*b));
+        double b = scanner.nextDouble();
+        System.out.printf("%.3f km/l\n",(a/b));
     }
 }

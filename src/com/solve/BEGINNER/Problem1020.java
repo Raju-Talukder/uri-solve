@@ -1,4 +1,4 @@
-package com.solve;
+package com.solve.BEGINNER;
 
 import java.util.Scanner;
 

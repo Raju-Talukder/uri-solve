@@ -1,12 +1,11 @@
-package com.solve;
+package com.solve.BEGINNER;
 
 import java.util.Scanner;
 
-public class Problem1011 {
+public class Problem1002 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
-        double sal = ((4.0/3)*3.14159)*(a*a*a);
-        System.out.printf("VOLUME = %.3f\n",sal);
+        System.out.printf("A=%.4f\n",(3.14159*a*a));
     }
 }
